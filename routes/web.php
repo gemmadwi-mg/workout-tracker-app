@@ -26,9 +26,20 @@ Route::get('/workout/overview', function () {
 Route::get('/workout/add', function () {
     return view('workouts.workoutadd');
 });
+Route::get('/workout/view', function () {
+    return view('workouts.addworkout');
+});
 
 Route::get('/workout/day/add', function () {
     return view('workouts.workoutaddday');
+});
+
+Route::get('/workout/exercises/add', function () {
+    return view('workouts.addexercise');
+});
+
+Route::get('/workout/exercises/add/overview', function () {
+    return view('workouts.selectexercise');
 });
 
 Route::get('/workout/schedule/overview', function () {

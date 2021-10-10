@@ -10,29 +10,13 @@
                 <tbody>
                     <tr>
                         <td>
-                            <a href="/">
-                                <p>Sample workout</p>
-                                <p>Sept. 28-2021</p>
+                            <a href="/workout/view">
+                                <p>Workout Madame ping</p>
+                                <p>Oct. 9, 2021</p>
                             </a>
                         </td>
                     </tr>
-                    <tr>
-                        <td>
-                            <a href="/">
-                                <p>Sample workout</p>
-                                <p>Sept. 28-2021</p>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="/">
-                                <p>Sample workout</p>
-                                <p>Sept. 28-2021</p>
-                            </a>
-                        </td>
-                    </tr>
-
+                    
                 </tbody>
             </table>
             

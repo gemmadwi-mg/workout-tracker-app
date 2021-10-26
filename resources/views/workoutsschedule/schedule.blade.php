@@ -10,24 +10,8 @@
                 <tbody>
                     <tr>
                         <td>
-                            <a href="/">
-                                <p>My cool Wokout schedule</p>
-                                <p>Sept. 28-2021</p>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="/">
-                                <p>Sample workout</p>
-                                <p>Sept. 28-2021</p>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="/">
-                                <p>Sample workout</p>
+                            <a href="/workout/schedule/view">
+                                <p>Program SIx pack</p>
                                 <p>Sept. 28-2021</p>
                             </a>
                         </td>
@@ -38,7 +22,7 @@
             
         </div>
         <div class="col-md-4">
-            <a class="btn btn-primary" href="/workout/add" role="button">Add Schedule</a>
+            <a class="btn btn-primary" href="/workout/schedule/overview/add" role="button">Add Schedule</a>
         </div>
     </div>
 </div>

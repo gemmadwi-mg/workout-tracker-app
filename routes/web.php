@@ -16,7 +16,7 @@ use App\Http\Controllers\RegisterController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('main');
 });
 
 Route::get('/workout/overview', function () {
@@ -42,8 +42,17 @@ Route::get('/workout/exercises/add/overview', function () {
     return view('workouts.selectexercise');
 });
 
+// SChedule
 Route::get('/workout/schedule/overview', function () {
     return view('workoutsschedule.schedule');
+});
+
+Route::get('/workout/schedule/overview/add', function () {
+    return view('workoutsschedule.addschedule');
+});
+
+Route::get('/workout/schedule/view', function () {
+    return view('workoutsschedule.workoutschedule');
 });
 
 Route::get('/workout/gallery/overview', function () {
